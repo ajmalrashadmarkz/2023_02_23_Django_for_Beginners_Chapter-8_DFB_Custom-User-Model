@@ -23,12 +23,12 @@ ____________________ 2. Git SetUp -- Initialisation  ____________________
     - git config user.email "ajmalrashadmarkz@gmail.com"
     - git add .
     - git commit -m "1. Setup Django Basics files"
-    - git remote add origin https://github.com/ajmalrashadmarkz/2023_02_22_Django_for_Beginners_Chapter-7_DFB_User-Accounts.git
+    - git remote add origin https://github.com/ajmalrashadmarkz/2023_02_23_Django_for_Beginners_Chapter-8_DFB_Custom-User-Model.git
     - git push -u origin master
 
 ____________________  3. Create App - blog ____________________
     - Create pages app
-        ○ python manage.py startapp blogs
+        ○ python manage.py startapp accounts
     - Register the App
         ○  django_project/settings.py
         ○  INSTALLED_APPS = [
